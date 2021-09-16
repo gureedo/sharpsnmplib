@@ -4,7 +4,7 @@
     <RootNamespace>Lextm.SharpSnmpLib</RootNamespace>
     <UseWPF>false</UseWPF>
     <UseWindowsForms>false</UseWindowsForms>
-    <TargetFrameworks Condition="!($([MSBuild]::IsOSPlatform('Linux')))">netstandard2.0;net471;xamarin.ios10;monoandroid80</TargetFrameworks>
+    <TargetFrameworks Condition="!($([MSBuild]::IsOSPlatform('Linux')))">net6.0</TargetFrameworks>
     <TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('Linux'))">netstandard2.0;net471</TargetFrameworks>
     <PackageId>Lextm.SharpSnmpLib</PackageId>
     <Title>#SNMP Library</Title>
